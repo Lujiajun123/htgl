@@ -1,0 +1,97 @@
+*{
+    color:rgb(49, 0, 141);
+}
+tbody tr td{
+    color:rgb(153, 0, 255);
+}
+.bg-pink {
+    background: linear-gradient(45deg,rgb(250, 24, 193),rgb(255, 0, 98));
+}
+.sidebar {
+    background-color: #fff;
+}
+.nav-link {
+    color:rgb(255, 0, 242);
+}
+#signout {
+    color:rgb(255, 170, 218);
+    cursor:pointer;
+}
+#signout:hover {
+    color:#fff;
+}
+.layui-btn {
+    background: rgb(255, 0, 119);
+}
+.layui-btn:hover {
+    background-color: rgb(255, 0, 191);
+}
+.layui-btn-primary {
+    background-color: #fff;
+    color:rgb(255, 0, 98);
+}
+.layui-btn-primary:hover {
+    background-color: #fff;
+    border-color:rgb(236, 0, 157);
+    color:rgb(255, 0, 128);
+}
+#demoReload {
+    /* color:rgb(255, 0, 98); */
+    color:rgb(49, 0, 141);
+
+}
+.table-striped tbody tr:nth-of-type(4n-3) {
+    background-color: rgba(251, 255, 0, 0.082);
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background: linear-gradient(45deg,rgb(194, 0, 184),rgb(255, 132, 214),rgb(255, 208, 239));
+}
+.table-striped tbody tr.selected {
+    background-color: rgba(255, 0, 157, 0.158);
+}
+.row{
+    height: 100%;
+    /* background-color: rgb(255, 248, 250); */
+}
+html,body {
+    height:100%;
+}
+.container-fluid {
+    height: 100%;
+}
+#main,#upload { 
+    color:rgb(255, 0, 157);
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+#main:hover,#upload:hover {
+    color:rgb(140, 0, 255);
+}
+.change ,.confirm{
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    color:#fff;
+    border-color:rgb(255, 0, 149);
+    cursor:pointer;
+    font-size:16px;
+    border-radius:3px;
+}
+.page span{display:inline-block;margin:5px;width:40px;line-height:1.8;text-align: center;background-color:#dfdfdf;color:#666;}
+.page span.active{background-color:#fc0;color:#fff;}
+
+.popover{display:none;position:absolute;left:50%;top:50%;height:500px;
+    min-width:600px;overflow:hidden;transform:translate(-50%,-50%);
+    border:3px solid pink;background-color:#fff;font-size:26px;}
+.popover .title{margin:0;height:50px;line-height:50px;padding:0 10px;
+    background:linear-gradient(#fff, #efefef 5%, #ddd);color:#fff;}
+.popover .content{padding:15px;}
+.popover .footer{position:absolute;left:0;bottom:0;right:0;padding:20px;text-align:center;}
+.footer button{cursor:pointer;display:inline-block;margin:0 5px;padding:5px 15px;
+    border:1px solid #ddd;background:linear-gradient(#efefef, #cfcfcf);
+    font-size:26px;color:purple;}
+.popover .btn-close{position:absolute;right:0;top:0;
+    padding:0 10px;line-height:50px;cursor:default;}
+.popover .btn-close:hover{color:orange;}
+.overlay{display:none;position:fixed;top:0;left:0;right:0;
+    bottom:0;background-color: rgba(0,0,0,.3);z-index:1022;}

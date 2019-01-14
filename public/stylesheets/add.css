@@ -1,0 +1,9 @@
+.layui-form-label {
+    width: 100px;
+}
+.layui-form select {
+    display: block;
+}
+.layui-input-inline {
+    padding:7px;
+}

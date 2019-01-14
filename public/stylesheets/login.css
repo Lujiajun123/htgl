@@ -1,0 +1,83 @@
+html,
+body {
+  /* width: 100%; */
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(../images/sy.JPG) no-repeat;
+  background-size:cover;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.fff {
+  /* color:#fff; */
+  color:#e78ae7;
+}
+.fff2 {
+  color:#fff;
+}
+#inputEmail,
+#inputPassword{
+  color:rgb(179, 0, 149);
+  font-weight: 600;
+}
+.btn-primary {
+  background-color:rgb(211, 38, 211);
+  border-color:rgb(200, 19, 200);
+  /* opacity:0.8; */
+}
+.btn-primary:hover {
+  background-color: rgb(255, 0, 119);
+  border-color: rgb(255, 0, 119);
+  color:#ffbfff;
+}
+.form-signin {
+  opacity:0.8;
+}
+.form-control:focus {
+  border-color: #ff00b3;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 221, 0.507);
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 221, 0.835);
+
+}
